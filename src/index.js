@@ -24,7 +24,7 @@ app.use(compression({
 // built in middleware
 // CORS configuration
 const corsOptions = {
-    origin: 'http://localhost:5173', // Replace with your frontend's origin
+    origin: '*', // Replace with your frontend's origin
     methods: ['GET', 'POST', 'PATCH', 'DELETE', 'PUT'], // Add allowed HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Add required headers
   };
